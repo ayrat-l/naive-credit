@@ -26,10 +26,3 @@ def is_creditable(age, salary):
         return False
     #В этой точке все проверки пройдены
     return True
-
-
-    #Так делать не нужно
-    if min_age <= age <= max_age and salary >= min_salary:
-        return True
-    else:
-        return False
